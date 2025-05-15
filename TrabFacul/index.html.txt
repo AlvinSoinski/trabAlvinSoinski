@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação do Aluno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Seu Nome Aqui</h1>
+    <p>Olá! Meu nome é [Alvin Andrew Soinski], tenho [24 anos] anos e moro em [Curitiba - PR]. Sou apaixonado por [Jogos, Carros, F1, drift e Airsoft ], e alguns dos meus hobbies incluem:</p>
+    $1        <li>Jogar CS</li>
+        <li>Carros modificados</li>
+        <li>Carros turbo e carros de drift</li>
+        <li>Jogar Airsoft</li>$3
+    <img src="682bebe9-7dce-4eab-9d9b-736bc71ce19a.png" alt="Carros de Drift" class="hobby-image">
+
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="japao.jpg" alt="Japão"></td>
+        </tr>
+        <tr>
+            <td>Estados Unidos</td>
+            <td><img src="eua.jpg" alt="Estados Unidos"></td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="italia.jpg" alt="Itália"></td>
+        </tr>
+    </table>
+
+    <a href="https://www.youtube.com/@BRclubTV" target="_blank">Acesse o BRclub TV no YouTube</a>
+
+    <button onclick="showMessage()">Clique para ver uma mensagem!</button>
+    <p id="message" style="display:none;">Supra é modinha, Skyline R34 sempre foi e sempre será melhor!</p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

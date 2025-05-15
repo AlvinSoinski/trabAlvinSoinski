@@ -1,0 +1,76 @@
+/* Estilos para a página do trabalho */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.hobby-image {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 3px solid #0056b3;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: #0056b3;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
